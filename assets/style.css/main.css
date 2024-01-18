@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 .container{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: bisque;
   
 }
 
@@ -75,13 +79,7 @@ header{
 }
 
 
-.rana{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: bisque;
-  height: 700px;
-}
+
 
 .foto-grande{
   width: 60%;
@@ -95,12 +93,9 @@ header{
   background-color: blueviolet;
 }
 
-.mago{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container-gray{
+  
   background-color: grey;
-  height: 700px;
 }
 
 .large-part{
@@ -173,15 +168,9 @@ header{
 
 .footer-btn{
   display: flex;
-
+  justify-content: space-between;
+  border-top: 2px solid white ;
   width: 80%;
   background-color: orchid;
 }
 
-.footer-btn .login{
-  text-align: left
-}
-
-.footer-btn .bottone{
-  text-align: right;
-}
