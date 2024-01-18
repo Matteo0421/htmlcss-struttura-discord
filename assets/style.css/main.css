@@ -14,9 +14,9 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 500px;
-  background-color: red;
+
 }
+
 
 /* HEADER */
 header{
@@ -66,7 +66,7 @@ ul{
   justify-content: center;
   align-items: center;
   background-color: blue;
-  height: 600px;
+  height: 700px;
 }
 .titolo{
   width: 50%;
@@ -74,18 +74,13 @@ ul{
   background-color: pink;
 }
 
-.middle-page{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: bisque;
-  height: 700px;
-}
+
 .rana{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: bisque;
+  height: 700px;
 }
 
 .foto-grande{
@@ -100,3 +95,37 @@ ul{
   background-color: blueviolet;
 }
 
+.mago{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 700px;
+}
+
+.large-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+  background-color: gold;
+}
+.final-text,
+.final-img,
+.final-btn{
+  width: 80%;
+  background-color: mediumslateblue;
+  border: 2px solid black;
+}
+
+.final-text{
+  height: 80px;
+}
+
+.final-img{
+  height: 400px;
+}
+.final-btn{
+  height: 80px;
+}
