@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container{
-  width: 1450px;
+  
   
 }
 
@@ -172,6 +172,8 @@ header{
 }
 
 .footer-btn{
+  display: flex;
+
   width: 80%;
   background-color: orchid;
 }
