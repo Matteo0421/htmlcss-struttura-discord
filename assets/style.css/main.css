@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1450px;
+  
+}
+header{
+  height: 65px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 500px;
+  height: 50px;
+  background-color: orange;
+}
+.logo, .btn{
+ border: 2px solid black;
+ width: 150px;
+}
+
+.logo span{
+  text-align: left;
+  
+}
+
+.lista-header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lista-header ul li{
+  border: 2px solid black;
+}
+
+/* .btn input{
+  text-align: right;
+} */
