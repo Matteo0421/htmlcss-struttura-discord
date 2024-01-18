@@ -7,23 +7,36 @@
   width: 1450px;
   
 }
-header{
-  height: 65px;
-  background-color: aquamarine;
+
+
+.middle-page{
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  background-color: red;
+}
+
+/* HEADER */
+header{
+  background-color: aquamarine;
+  padding: 20px 0;
 }
 .header-container{
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
-  align-self: center;
-  width: 500px;
-  height: 50px;
-  background-color: orange;
 }
 .logo, .btn{
  border: 2px solid black;
- width: 150px;
+ width: 20%;
+ background-color: orange;
+}
+
+.btn{
+  text-align: right;
 }
 
 .logo span{
@@ -32,14 +45,58 @@ header{
 }
 
 .lista-header{
-  display: flex;
-  justify-content: space-around;
-}
-
-.lista-header ul li{
+  background-color: orange;
+  width: 60%;
   border: 2px solid black;
 }
 
-/* .btn input{
-  text-align: right;
-} */
+ul{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.jumboscreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 600px;
+}
+.titolo{
+  width: 50%;
+  height: 350px;
+  background-color: pink;
+}
+
+.middle-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 700px;
+}
+.rana{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.foto-grande{
+  width: 60%;
+  height: 500px;
+  background-color: burlywood;
+}
+
+.little-text{
+  width: 40%;
+  height: 500px;
+  background-color: blueviolet;
+}
+
