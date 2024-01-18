@@ -50,7 +50,7 @@ header{
   border: 2px solid black;
 }
 
-ul{
+.lista-header ul{
   display: flex;
   justify-content: space-around;
   text-decoration: none;
@@ -128,4 +128,58 @@ ul{
 }
 .final-btn{
   height: 80px;
+}
+/* /main */
+
+/* FOOTER */
+.final-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: black;
+}
+
+.final-container{
+  display: flex;
+  height: 500px;
+  width: 80%;
+  background-color: brown;
+}
+
+.social-network{
+  width: 35%;
+  height: 500px;
+  background-color: salmon;
+}
+
+.final-list{
+  width: 16.25%;
+  height: 500px;
+  background-color: teal;
+}
+
+.final-list ul{
+  list-style: none;
+}
+.footer-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.footer-btn{
+  width: 80%;
+  background-color: orchid;
+}
+
+.footer-btn .login{
+  text-align: left
+}
+
+.footer-btn .bottone{
+  text-align: right;
 }
